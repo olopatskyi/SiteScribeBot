@@ -174,3 +174,7 @@ paket-files/
 
 # Mono Auto Generated Files
 mono_crash.*
+
+SiteScriber.Api/appsettings.Development.json
+
+SiteScriber.FileProcessor/secrets.Development.json
