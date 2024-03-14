@@ -20,6 +20,7 @@ public class SubscriptionService : LogicalLayerElement, ISubscriptionService
     {
         using var cursor =
             await _subscriptionRepository.GetExpiredSubscriptionsCursorAsync(cancellationToken: cancellationToken);
+        
         while (await cursor.MoveNextAsync(cancellationToken))
         {
             var batch = cursor.Current;

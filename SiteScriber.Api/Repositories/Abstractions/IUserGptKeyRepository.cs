@@ -6,5 +6,5 @@ public interface IUserGptKeyRepository
 {
     Task CreateAsync(CreateUserGptKeyModel model, CancellationToken cancellationToken = default);
 
-    Task<GetUserGptKeyModel> GetOneAsync(string userId, CancellationToken cancellationToken = default);
+    Task<string> GetOneAsync(string userId, CancellationToken cancellationToken = default);
 }

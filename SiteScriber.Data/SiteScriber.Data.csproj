@@ -10,4 +10,8 @@
       <ProjectReference Include="..\SiteScriber.Framework\SiteScriber.Framework.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Driver.GridFS" Version="2.24.0" />
+    </ItemGroup>
+
 </Project>

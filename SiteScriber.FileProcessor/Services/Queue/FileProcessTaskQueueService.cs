@@ -2,7 +2,7 @@ using SiteScriber.Data.Entities.Tasks;
 using SiteScriber.Framework.Services.QueueService.Service;
 using SiteScriber.Framework.Services.QueueService.Storage.Interfaces;
 
-namespace SiteScriber.FileProcessor.Services;
+namespace SiteScriber.FileProcessor.Services.Queue;
 
 public class FileProcessTaskQueueService : QueueService<FileProcessTask>
 {

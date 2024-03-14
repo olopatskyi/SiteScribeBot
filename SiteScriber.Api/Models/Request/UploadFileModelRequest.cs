@@ -7,6 +7,8 @@ namespace SiteScriber.Api.Models.Request;
 public class UploadFileModelRequest
 {
     public string UserId { get; set; }
+    
+    public string ChatId { get; set; }
 
     public IFormFile File { get; set; }
 }

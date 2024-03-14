@@ -9,6 +9,9 @@ public class FileProcessTask : QueueElementEntity
 {
     [BsonElement("f")]
     public string FileId { get; set; }
+    
+    [BsonElement("ak")]
+    public string ApiKey { get; set; }
 
     [BsonElement("cid")]
     public string ChatId { get; set; }
